@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Inter&family=Poppins:wght@300;400&display=swap');
+
+
+:root {
+  --bg-hero-section: linear-gradient(to right, rgba(137, 69, 236, 1), rgba(137, 69, 236, 1), rgba(255, 68, 26, 1));
+  --bg-primary: linear-gradient(320.28deg, #8945EC 4.54%, rgba(137, 69, 236, 0.5) 113.11%);
+  --btn: linear-gradient(to right, rgba(255, 214, 107, 1), rgba(255, 190, 65, 1));
+  --bg-heathrow: linear-gradient(90deg, rgba(255, 255, 255, 0.95) 17.53%, rgba(255, 255, 255, 0) 78.33%);
+  --bg-hover: linear-gradient(89.88deg, #FFD66B 0.77%, #FFBE41 96.41%);
+  --btn-border: 3px solid rgba(137, 69, 236, 0.37);
+  --icon-border: 2px solid rgba(255, 255, 255, 1);
+  --icon-bg-hover: rgba(115, 80, 159, 1);
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

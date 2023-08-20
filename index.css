@@ -71,7 +71,8 @@ button {
 header {
   background: var(--bg-hero-section);
   width: 100%;
-  height: 600px;
+  height: auto;
+  overflow: hidden;
 }
 
 .container-wrapper {
@@ -98,7 +99,15 @@ header {
 
 /* ---------------End Header--------------------- */
 
-
+.Opacity {
+  background: radial-gradient(37.51% 37.51% at 50% 50%, #FFFFFF 28.13%, rgba(217, 217, 217, 0) 100%);
+  position: absolute;
+  width: 1482px;
+  height: 1681px;
+  left: 239px;
+  top: -237px;
+  border-radius: 50%;
+}
 
 
 /* ---------------Start Hero--------------------- */
@@ -107,6 +116,10 @@ header {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   place-items: center;
+}
+
+.container-hero-img {
+  z-index: 1;
 }
 
 .container-hero-content {
@@ -156,4 +169,23 @@ header {
 /* ------------Start Heathrow------------------------------------------------ */
 .heathrow {
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.95) 17.53%, rgba(255, 255, 255, 0) 78.33%);
+  width: 100%;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.container-heathrow {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.container-heathrow img {
+  margin: 0 60px;
+  height: 40px;
+}
+
+/* ------------End Heathrow------------------------------------------------ */
